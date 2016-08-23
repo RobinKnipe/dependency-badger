@@ -1,0 +1,29 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "Some common dependency examples to show how the dependency-badger can be used (see the example.md file for the result).",
+  "scripts": {
+    "start": "echo \"Error: this is just an example package file to show intended use\" && exit 1",
+    "test": "echo \"Error: this is just an example package file to show intended use\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinKnipe/dependency-badger.git"
+  },
+  "keywords": [
+    "node",
+    "example"
+  ],
+  "author": "Robin Knipe <github.com/RobinKnipe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobinKnipe/dependency-badger/issues"
+  },
+  "homepage": "https://github.com/RobinKnipe/dependency-badger#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
